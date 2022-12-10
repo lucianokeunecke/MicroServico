@@ -1,0 +1,17 @@
+.metadata/
+empenho/.mvn
+empenho/target/
+eureka/.mvn
+eureka/target/
+fornecedor/.mvn
+fornecedor/target/
+processolicitatorio/.mvn
+processolicitatorio/target/
+produto/.mvn
+produto/target/
+configserver/bin/
+configserver/settings/
+configserver/gradle/
+configserver/.gradle/
+configserver/.classpath
+configserver/.project
