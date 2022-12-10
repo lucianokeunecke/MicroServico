@@ -26,7 +26,7 @@ public class FornecedorResource {
 	}
 	
 	@GetMapping("/{id}")
-	public Fornecedor getFornecedor(@PathVariable Long id) {
+	public Fornecedor buscarPeloId(@PathVariable Long id) {
 		return fornecedorService.buscarPeloId(id);
 	}	
 

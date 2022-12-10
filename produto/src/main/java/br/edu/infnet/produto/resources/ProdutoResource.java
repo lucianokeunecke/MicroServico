@@ -20,13 +20,13 @@ public class ProdutoResource {
 	private ProdutoService produtoService;
 	
 	@GetMapping
-	public ResponseEntity<List<Produto>> getProdutos(){
+	public ResponseEntity<List<Produto>> listarTodos(){
 		
 		return ResponseEntity.ok(produtoService.listarTodos());
 	}
 	
 	@GetMapping("/{id}")
-	public Produto getCliente(@PathVariable Long id) {
+	public Produto buscarPeloId(@PathVariable Long id) {
 		return produtoService.buscarPeloId(id);
 	}	
 
