@@ -36,7 +36,35 @@ public class Produto {
         return id;
     }
 
-    @Override
+    public Long getCodigo() {
+		return codigo;
+	}
+
+	public void setCodigo(Long codigo) {
+		this.codigo = codigo;
+	}
+
+	public String getDescricao() {
+		return descricao;
+	}
+
+	public void setDescricao(String descricao) {
+		this.descricao = descricao;
+	}
+
+	public float getValor() {
+		return valor;
+	}
+
+	public void setValor(float valor) {
+		this.valor = valor;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	@Override
     public String toString() {
         return "Produto{" +
                 "id=" + id +
