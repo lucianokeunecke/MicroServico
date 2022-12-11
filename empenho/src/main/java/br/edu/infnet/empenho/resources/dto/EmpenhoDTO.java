@@ -4,25 +4,25 @@ import java.util.List;
 
 public class EmpenhoDTO {
 	
-	private Integer fornecedorId;
+	private Long fornecedorId;
 	
-	private Integer processoLicitatorioId;
+	private Long processoLicitatorioId;
 
 	private List<ProdutoDTO> listaProdutos;
 
-	public Integer getFornecedorId() {
+	public Long getFornecedorId() {
 		return fornecedorId;
 	}
 
-	public void setFornecedorId(Integer fornecedorId) {
+	public void setFornecedorId(Long fornecedorId) {
 		this.fornecedorId = fornecedorId;
 	}
 
-	public Integer getProcessoLicitatorioId() {
+	public Long getProcessoLicitatorioId() {
 		return processoLicitatorioId;
 	}
 
-	public void setProcessoLicitatorioId(Integer processoLicitatorioId) {
+	public void setProcessoLicitatorioId(Long processoLicitatorioId) {
 		this.processoLicitatorioId = processoLicitatorioId;
 	}
 

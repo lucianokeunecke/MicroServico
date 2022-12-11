@@ -6,12 +6,12 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 
-import br.edu.infnet.empenho.resources.dto.ProdutoDTO;
+import br.edu.infnet.empenho.resources.dto.ProdutoCatalogoDTO;
 
 @FeignClient("produto")
 public interface ProdutoClient {
 	
 	@GetMapping
-	public ResponseEntity<List<ProdutoDTO>> listarTodos();
+	public ResponseEntity<List<ProdutoCatalogoDTO>> listarTodos();
 
 }
