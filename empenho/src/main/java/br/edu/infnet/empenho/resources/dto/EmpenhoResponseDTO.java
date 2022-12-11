@@ -8,13 +8,13 @@ public class EmpenhoResponseDTO {
 	
 	private ProcessoLicitatorioDTO processoLicitatorio;
 	
-	private List<ProdutoDTO> listaProdutos;
+	private List<ProdutoCatalogoDTO> listaProdutos;
 
 	public EmpenhoResponseDTO() {
-		
+		super();
 	}
 
-	public EmpenhoResponseDTO(FornecedorDTO fornecedor, ProcessoLicitatorioDTO processoLicitatorio, List<ProdutoDTO> listaProdutos) {
+	public EmpenhoResponseDTO(FornecedorDTO fornecedor, ProcessoLicitatorioDTO processoLicitatorio, List<ProdutoCatalogoDTO> listaProdutos) {
 		super();
 		this.fornecedor = fornecedor;
 		this.processoLicitatorio = processoLicitatorio;
@@ -29,7 +29,7 @@ public class EmpenhoResponseDTO {
 		return processoLicitatorio;
 	}
 
-	public List<ProdutoDTO> getListaProdutos() {
+	public List<ProdutoCatalogoDTO> getListaProdutos() {
 		return listaProdutos;
 	}
 
