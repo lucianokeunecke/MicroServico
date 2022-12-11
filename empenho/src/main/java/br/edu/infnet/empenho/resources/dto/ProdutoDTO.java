@@ -3,8 +3,11 @@ package br.edu.infnet.empenho.resources.dto;
 public class ProdutoDTO {
 	
     private Long id;
+    
     private Long codigo;
+    
     private String descricao;
+    
     private float valor;
     
 	public Long getId() {

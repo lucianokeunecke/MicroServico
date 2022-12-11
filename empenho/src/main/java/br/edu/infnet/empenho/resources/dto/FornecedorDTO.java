@@ -3,15 +3,41 @@ package br.edu.infnet.empenho.resources.dto;
 public class FornecedorDTO {
 	
     private Long id;
+    
     private String nome;
+    
     private String cnpjCpf;
+    
     private String endereco;
+    
     private long numeroEndereco;
+    
     private String complementoEndereco;
+    
     private String bairro;
+    
     private long numeroCep;
+    
     private String nomeCidade;
     
+	public FornecedorDTO() {
+		super();
+	}
+
+	public FornecedorDTO(Long id, String nome, String cnpjCpf, String endereco, long numeroEndereco,
+			String complementoEndereco, String bairro, long numeroCep, String nomeCidade) {
+		super();
+		this.id = id;
+		this.nome = nome;
+		this.cnpjCpf = cnpjCpf;
+		this.endereco = endereco;
+		this.numeroEndereco = numeroEndereco;
+		this.complementoEndereco = complementoEndereco;
+		this.bairro = bairro;
+		this.numeroCep = numeroCep;
+		this.nomeCidade = nomeCidade;
+	}
+
 	public Long getId() {
 		return id;
 	}

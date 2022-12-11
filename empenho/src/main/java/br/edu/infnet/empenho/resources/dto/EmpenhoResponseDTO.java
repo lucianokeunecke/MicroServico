@@ -21,4 +21,16 @@ public class EmpenhoResponseDTO {
 		this.listaProdutos = listaProdutos;
 	}
 
+	public FornecedorDTO getFornecedor() {
+		return fornecedor;
+	}
+
+	public ProcessoLicitatorioDTO getProcessoLicitatorio() {
+		return processoLicitatorio;
+	}
+
+	public List<ProdutoDTO> getListaProdutos() {
+		return listaProdutos;
+	}
+
 }

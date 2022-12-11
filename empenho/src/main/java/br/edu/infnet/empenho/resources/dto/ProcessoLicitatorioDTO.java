@@ -5,11 +5,29 @@ import java.time.LocalDate;
 public class ProcessoLicitatorioDTO {
 	
     private Long id;
+    
     private int numero;
+    
     private LocalDate dataExpedicao;
+    
     private String objetoLicitacao;
+    
     private float valorEstimadoEdital;
     
+	public ProcessoLicitatorioDTO() {
+		super();
+	}
+
+	public ProcessoLicitatorioDTO(Long id, int numero, LocalDate dataExpedicao, String objetoLicitacao,
+			float valorEstimadoEdital) {
+		super();
+		this.id = id;
+		this.numero = numero;
+		this.dataExpedicao = dataExpedicao;
+		this.objetoLicitacao = objetoLicitacao;
+		this.valorEstimadoEdital = valorEstimadoEdital;
+	}
+
 	public Long getId() {
 		return id;
 	}
