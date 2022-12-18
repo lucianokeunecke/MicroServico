@@ -6,6 +6,21 @@ A aplicação tem por objetivo realizar a emissão de empenhos oriundos de um Pr
 
 O Empenho é a etapa em que o governo reserva o dinheiro que será pago quando o bem for entregue ou o serviço for concluído. Isso ajuda o governo a organizar os gastos pelas diferentes áreas do governo, evitando que se gaste mais do que foi planejado.
 
+Principais rotas:
+
+http://localhost:8761/eureka/apps
+
+http://localhost:8080/produto
+
+http://localhost:8080/fornecedor
+
+http://localhost:8080/processolicitatorio
+
+http://localhost:8080/empenho
+
+
+
+
 Para inserir os dados padrão nos bancos de dados, execute os scripts abaixo:
 
 https://github.com/lucianokeunecke/MicroServico/blob/main/fornecedor/src/main/resources/arquivos/fornecedor.sql
