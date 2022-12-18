@@ -1,0 +1,10 @@
+INSERT INTO PRODUTO (`codigo`,`descricao`,`valor`) VALUES (1,'Prestação de serviços de transporte escolar ',35);
+INSERT INTO PRODUTO (`codigo`,`descricao`,`valor`) VALUES (2,'Cesta básica para servidores públicos gerais ',45);
+INSERT INTO PRODUTO (`codigo`,`descricao`,`valor`) VALUES (3,'Blusa infantil tamanho 02 a 08 anos',25.5);
+INSERT INTO PRODUTO (`codigo`,`descricao`,`valor`) VALUES (4,'Prestação de serviço de engenharia ambiental',75);
+INSERT INTO PRODUTO (`codigo`,`descricao`,`valor`) VALUES (5,'pneu 215/75 R 17.5 liso',120);
+INSERT INTO PRODUTO (`codigo`,`descricao`,`valor`) VALUES (6,'câmara de ar 1100 x 22 Radial',70);
+INSERT INTO PRODUTO (`codigo`,`descricao`,`valor`) VALUES (7,'Sabão em barra, descrição dada pelo ítem 18 do anexo 1. ',4.75);
+INSERT INTO PRODUTO (`codigo`,`descricao`,`valor`) VALUES (8,'lápis grafite preto nº 2',1.99);
+INSERT INTO PRODUTO (`codigo`,`descricao`,`valor`) VALUES (9,'polvilho azedo(N1)',4.7);
+INSERT INTO PRODUTO (`codigo`,`descricao`,`valor`) VALUES (10,'palitos de dente tamanho convencional',2.75);
