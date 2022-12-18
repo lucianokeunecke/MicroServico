@@ -18,7 +18,21 @@ http://localhost:8080/processolicitatorio
 
 http://localhost:8080/empenho
 
-
+{
+    "fornecedorId": 1,
+    "processoLicitatorioId": 2,
+    "listaProdutos": [
+    {
+        "id": 1
+    },
+    {
+        "id": 2
+    },
+    {
+        "id": 3
+    }
+]
+}
 
 
 Para inserir os dados padrão nos bancos de dados, execute os scripts abaixo:
