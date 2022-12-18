@@ -5,3 +5,11 @@ Trabalho apresentado na disciplina de Arquitetura de Microsserviços Java, do cu
 A aplicação tem por objetivo realizar a emissão de empenhos oriundos de um Processo Licitatório na qual o fornecedor foi vencedor.
 
 O Empenho é a etapa em que o governo reserva o dinheiro que será pago quando o bem for entregue ou o serviço for concluído. Isso ajuda o governo a organizar os gastos pelas diferentes áreas do governo, evitando que se gaste mais do que foi planejado.
+
+Para inserir os dados padrão nos bancos de dados, execute os scripts abaixo:
+
+https://github.com/lucianokeunecke/MicroServico/blob/main/fornecedor/src/main/resources/arquivos/fornecedor.sql
+
+https://github.com/lucianokeunecke/MicroServico/blob/main/processolicitatorio/src/main/resources/arquivos/ProcessoLicitatorio.sql
+
+https://github.com/lucianokeunecke/MicroServico/blob/main/produto/src/main/resources/arquivos/produto.sql
