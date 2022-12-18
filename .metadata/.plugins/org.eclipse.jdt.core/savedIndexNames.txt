@@ -181,7 +181,6 @@ INDEX VERSION 1.131+D:\Keunecke\INFNET\Modulo 04\MicroServico\.metadata\.plugins
 3807352373.index
 3006212266.index
 3976187571.index
-3439712916.index
 166290914.index
 24791224.index
 3838912636.index

@@ -11,7 +11,7 @@ import br.edu.infnet.empenho.resources.dto.ProdutoCatalogoDTO;
 @FeignClient("produto")
 public interface ProdutoClient {
 	
-	@GetMapping
+	@GetMapping("/produto")
 	public ResponseEntity<List<ProdutoCatalogoDTO>> listarTodos();
 
 }
