@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
-import br.edu.infnet.empenho.clients.FornecedorClient;
 import br.edu.infnet.empenho.clients.ProdutoClient;
 import br.edu.infnet.empenho.resources.dto.EmpenhoDTO;
 import br.edu.infnet.empenho.resources.dto.EmpenhoResponseDTO;
@@ -33,11 +32,11 @@ public class EmpenhoResource {
 	@Value("${processolicitatorio.endpoint.url}")
 	private String processoLicitatorioApiUrl;
 	
-	@Autowired
-	private ProdutoClient produtoClient;
+	@Value("${fornecedor.endpoint.url}")
+	private String fornecedorApiUrl;	
 	
 	@Autowired
-	private FornecedorClient fornecedorClient;
+	private ProdutoClient produtoClient;
 	
 	@PostMapping
 	public EmpenhoResponseDTO emitirEmpenho(@RequestBody EmpenhoDTO empenhoDTO) {
@@ -48,7 +47,7 @@ public class EmpenhoResource {
 		
 		log.info("Chamada da api ProcessoLicitatorio: {}", processoLicitatorioDTO);
 		
-		FornecedorDTO fornecedorDTO = fornecedorClient.buscarPeloId(empenhoDTO.getFornecedorId());
+		FornecedorDTO fornecedorDTO = restTemplate.getForObject(fornecedorApiUrl + empenhoDTO.getFornecedorId(), FornecedorDTO.class);
 		
 		log.info("Chamada da api Fornecedor: {}", fornecedorDTO);
 		
