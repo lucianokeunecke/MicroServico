@@ -33,6 +33,14 @@ public class GatewayApplication {
 								)
 						.uri("http://localhost:8383")
 							)
+				.route(p -> p
+						.path("/empenho/**")
+						.filters(f ->f.circuitBreaker(config -> config
+								.setName("mycmd")
+								.setFallbackUri("forward:/fallback"))
+								)
+						.uri("http://localhost:8181")
+							)
 				.build();
 	}	
 
