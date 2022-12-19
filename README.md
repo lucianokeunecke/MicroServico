@@ -39,8 +39,11 @@ http://localhost:8080/empenho
 ## swagger
 
 http://localhost:8282/swagger-ui/index.html
+
 http://localhost:8989/swagger-ui/index.html
+
 http://localhost:8383/swagger-ui/index.html
+
 http://localhost:8181/swagger-ui/index.html
 
 ## Inserção de Dados Padrão
