@@ -36,6 +36,12 @@ http://localhost:8080/empenho
 ]
 }
 
+## repo-config
+
+Fornecedor: https://github.com/lucianokeunecke/repo-config/tree/main/fornecedor
+
+Produto: https://github.com/lucianokeunecke/repo-config/tree/main/produto
+
 ## Swagger:
 
 Fornecedor: http://localhost:8282/swagger-ui/index.html
